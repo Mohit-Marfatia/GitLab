@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Basic Syllabus</title>
+</head>
+<body style="overflow:hidden;">
+    <!-- Navbar Start -->
+    <nav class=" navbar navbar-expand-lg mt-2 w-100 " style="height:9%; ">
+      <div class="container-fluid ">
+          <a class="nav-link " href="{{url_for('landing')}} " style="height:1%;border-radius:30px;color:white;background-color:black;padding:10px; ">Gujarati Shikshak</a>
+          <a href="{{url_for('landing')}}" button class="navbar-toggler " type="button " data-bs-toggle="collapse " data-bs-target="#navbarNavAltMarkup " aria-controls="navbarNavAltMarkup " aria-expanded="false " aria-label="Toggle navigation ">
+          <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup ">
+              <div class="navbar-nav ">
+                  <a class="nav-link active " id="ab " aria-current="page " href="# " style="border-radius:30px;color:white;background-color:black;margin:4px 3px; ">Home</a>
+              </div>
+              <div class="navbar-nav ">
+                <a class="nav-link active " id="ab " aria-current="page " href="# " style="border-radius:30px;color:white;background-color:black;margin:4px 3px; ">Syllabus</a>
+            </div>
+          </div>
+          <a class="nav-link " href="{{url_for('logout')}}"><button class="btn btn-outline-success mt-2 " style="border-radius:30px;color:white;background-color:black;" type="submit">Logout</button></a> 
+      </div>
+  </nav>
+  <!-- Navbar End -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            
+            <button type="button" class="btn btn-light mt-5" style="width: 100%;">Basic</button>
+            <div class="list-group list-group-flush">
+              <a href="Basics/consonents.html" class="list-group-item list-group-item-action my-1">Vyanjan(Consonents)</a>
+              <a href="Basics/vowels.html" class="list-group-item list-group-item-action my-1">Svar(Vowels)</a>
+              <a href="Basics/weeks.html" class="list-group-item list-group-item-action my-1">Divso(Weeks)</a>
+              <a href="Basics/months.html" class="list-group-item list-group-item-action my-1">Mahina(Months)</a>
+              <a href="Basics/Numbers.html" class="list-group-item list-group-item-action my-1">Ganit(Numbers)</a>
+              
+            </div>
+          </div>
+          <div class="col">
+            <img src="books2.jpg" alt="books" style="width:100%; ">
+          </div>
+          
+        </div>
+      </div>
+      
+
+     
+</body>
+</html>
